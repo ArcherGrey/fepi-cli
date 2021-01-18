@@ -9,6 +9,9 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "chalk": "^4.1.0",
+    "commander": "^7.0.0",
+    "download-git-repo": "^3.0.2",
     "husky": "^4.3.6",
     "semantic-release": "^17.3.3"
   },
@@ -19,5 +22,12 @@
   },
   "scripts": {
     "semantic-release": "semantic-release"
+  },
+  "bin": {
+    "fepi": "./bin/fepi",
+    "fepi-add": "./bin/fepi-add",
+    "fepi-delete": "./bin/fepi-delete",
+    "fepi-init": "./bin/fepi-init",
+    "fepi-list": "./bin/fepi-list"
   }
 }
