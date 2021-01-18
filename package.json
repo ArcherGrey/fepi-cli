@@ -1,20 +1,26 @@
 {
   "name": "fepi-cli",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "frontend project init cli",
   "main": "index.js",
-  "repository": "git@github.com:ArcherGrey/fepi-cli.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:ArcherGrey/fepi-cli.git"
+  },
   "author": "ArcherGrey <498792539@qq.com>",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "husky": "^4.3.6",
-    "semantic-release": "^17.3.1"
+    "semantic-release": "^17.3.3"
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
   }
 }
