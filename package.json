@@ -3,10 +3,7 @@
   "version": "0.0.0-development",
   "description": "frontend project init cli",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com:ArcherGrey/fepi-cli.git"
-  },
+  "repository": "git@github.com:ArcherGrey/fepi-cli.git",
   "author": "ArcherGrey <498792539@qq.com>",
   "license": "MIT",
   "devDependencies": {
