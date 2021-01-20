@@ -1,6 +1,6 @@
 {
   "name": "fepi-cli",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "frontend project init cli",
   "main": "index.js",
   "repository": "git@github.com:ArcherGrey/fepi-cli.git",
@@ -13,6 +13,8 @@
     "commander": "^7.0.0",
     "download-git-repo": "^3.0.2",
     "husky": "^4.3.6",
+    "inquirer": "^7.3.3",
+    "ora": "^5.2.0",
     "semantic-release": "^17.3.3"
   },
   "husky": {
@@ -24,10 +26,11 @@
     "semantic-release": "semantic-release"
   },
   "bin": {
-    "fepi": "./bin/fepi",
-    "fepi-add": "./bin/fepi-add",
-    "fepi-delete": "./bin/fepi-delete",
-    "fepi-init": "./bin/fepi-init",
-    "fepi-list": "./bin/fepi-list"
+    "fepi": "./bin/fepi.js",
+    "fepi-add": "./bin/fepi-add.js",
+    "fepi-delete": "./bin/fepi-delete.js",
+    "fepi-init": "./bin/fepi-init.js",
+    "fepi-list": "./bin/fepi-list.js",
+    "fepi-set": "./bin/fepi-set.js"
   }
 }
